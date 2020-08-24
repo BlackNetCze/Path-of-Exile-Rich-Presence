@@ -25,17 +25,17 @@ namespace Path_of_Exile_Rich_Presence
         private static PlayerCharacter _currentCharacter = new PlayerCharacter();
 
         private static List<PlayerCharacter> _characters = new List<PlayerCharacter>();
-        private static List<Map> _maps = new List<Map>();
+        //private static List<Map> _maps = new List<Map>();
 
         private static FileInfo _poeClientFileInfo;
 
         private static void Main()
         {
             LoadConfig();
-
-            using (StreamReader file = File.OpenText(Environment.CurrentDirectory + @"\maps.json"))
+            /*
+            using (StreamReader file = File.OpenText(Environment.CurrentDirectory + @"\Maps.json"))
                 _maps = JsonConvert.DeserializeObject<List<Map>>(file.ReadToEnd());
-
+            */
             _presence.details = "Level " + _currentCharacter.level + " " + _currentCharacter.ascendancy;
             _presence.state = "Currently in ";
 
@@ -129,7 +129,8 @@ namespace Path_of_Exile_Rich_Presence
 
                     var location = result.ToString();
 
-                    // string newResult = location + "(" + maps.Find(x => x.name == location.ToString()).tier;
+                    /*
+                     string newResult = location + "(" + maps.Find(x => x.name == location.ToString()).tier;
                     try
                     {
                         var currentMap = _maps.Find(x => x.name == location + " Map");
@@ -139,7 +140,7 @@ namespace Path_of_Exile_Rich_Presence
                     {
                         // ignored
                     }
-
+                    */
                     if (UpdatePoePresenceText("In " + location))
                     {
                         Log($"LOG: Location has been changed. Text: {lastLine} | " + "Location: " + result, ConsoleColor.Green);

@@ -1,0 +1,562 @@
+﻿[
+  {
+    "name": "Atoll Map",
+    "tier": "T1"
+  },
+  {
+    "name": "Channel Map",
+    "tier": "T1"
+  },
+  {
+    "name": "Flooded Mine Map",
+    "tier": "T1"
+  },
+  {
+    "name": "Ramparts Map",
+    "tier": "T1"
+  },
+  {
+    "name": "Arid Lake Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Armoury Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Dungeon Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Iceberg Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Pen Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Thicket Map",
+    "tier": "T2"
+  },
+  {
+    "name": "Bone Crypt Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Cage Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Cursed Crypt Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Desert Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Excavation Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Fungal Hollow Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Graveyard Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Grotto Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Peninsula Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Shipyard Map",
+    "tier": "T3"
+  },
+  {
+    "name": "Barrows Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Beach Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Courtyard Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Crater Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Glacier Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Lighthouse Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Lookout Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Marshes Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Spider Lair Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Strand Map",
+    "tier": "T4"
+  },
+  {
+    "name": "Alleyways Map",
+    "tier": "T5"
+  },
+  {
+    "name": "City Square Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Gardens Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Jungle Valley Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Mausoleum Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Maze Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Port Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Residence Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Underground Sea Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Vaal Pyramid Map",
+    "tier": "T5"
+  },
+  {
+    "name": "Academy Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Ashen Wood Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Canyon Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Fields Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Haunted Mansion Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Phantasmagoria Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Precinct Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Sulphur Vents Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Temple Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Volcano Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Wharf Map",
+    "tier": "T6"
+  },
+  {
+    "name": "Arcade Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Bazaar Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Cells Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Conservatory Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Dunes Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Geode Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Ghetto Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Lava Chamber Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Primordial Pool Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Toxic Sewer Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Underground River Map",
+    "tier": "T7"
+  },
+  {
+    "name": "Arachnid Nest Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Infested Valley Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Laboratory Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Mineral Pools Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Mud Geyser Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Orchard Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Overgrown Ruin Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Promenade Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Sepulchre Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Shore Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Wasteland Map",
+    "tier": "T8"
+  },
+  {
+    "name": "Ancient City Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Arena Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Cemetery Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Moon Temple Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Museum Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Relic Chambers Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Scriptorium Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Tropical Island Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Vault Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Waste Pool Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Waterways Map",
+    "tier": "T9"
+  },
+  {
+    "name": "Belfry Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Coral Ruins Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Coves Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Estuary Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Leyline Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Pier Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Pit Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Plateau Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Plaza Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Spider Forest Map",
+    "tier": "T10"
+  },
+  {
+    "name": "Arachnid Tomb Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Bog Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Burial Chambers Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Chateau Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Crystal Ore Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Factory Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Lair Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Mesa Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Park Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Siege Map",
+    "tier": "T11"
+  },
+  {
+    "name": "Arsenal Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Castle Ruins Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Colonnade Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Defiled Cathedral Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Ivory Temple Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Malformation Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Necropolis Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Overgrown Shrine Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Villa Map",
+    "tier": "T12"
+  },
+  {
+    "name": "Acid Caverns Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Caldera Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Colosseum Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Core Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Crimson Temple Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Dig Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Racecourse Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Reef Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Shrine Map",
+    "tier": "T13"
+  },
+  {
+    "name": "Basilica Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Carcass Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Courthouse Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Dark Forest Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Palace Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Sunken City Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Terrace Map",
+    "tier": "T14"
+  },
+  {
+    "name": "Desert Spring Map",
+    "tier": "T15"
+  },
+  {
+    "name": "Lava Lake Map",
+    "tier": "T15"
+  },
+  {
+    "name": "Primordial Blocks Map",
+    "tier": "T15"
+  },
+  {
+    "name": "Summit Map",
+    "tier": "T15"
+  },
+  {
+    "name": "Tower Map",
+    "tier": "T15"
+  },
+  {
+    "name": "Forge of the Phoenix Map",
+    "tier": "T16"
+  },
+  {
+    "name": "Lair of the Hydra Map",
+    "tier": "T16"
+  },
+  {
+    "name": "Maze of the Minotaur Map",
+    "tier": "T16"
+  },
+  {
+    "name": "Pit of the Chimera Map",
+    "tier": "T16"
+  },
+  {
+    "name": "Vaal Temple Map",
+    "tier": "T16"
+  },
+  {
+    "name": "The Shaper's Realm",
+    "tier": "T17"
+  }
+]

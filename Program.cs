@@ -25,23 +25,18 @@ namespace Path_of_Exile_Rich_Presence
         private static PlayerCharacter _currentCharacter = new PlayerCharacter();
 
         private static List<PlayerCharacter> _characters = new List<PlayerCharacter>();
-        //private static List<Map> _maps = new List<Map>();
 
         private static FileInfo _poeClientFileInfo;
 
         private static void Main()
         {
             LoadConfig();
-            /*
-            using (StreamReader file = File.OpenText(Environment.CurrentDirectory + @"\Maps.json"))
-                _maps = JsonConvert.DeserializeObject<List<Map>>(file.ReadToEnd());
-            */
+
             _presence.details = "Level " + _currentCharacter.level + " " + _currentCharacter.ascendancy;
             _presence.state = "Currently in ";
 
             _presence.smallImageKey = "mainimage";
             _presence.smallImageText = "mainimageSmall";
-
 
             Timer.Elapsed += (sender, evt) => { UpdatePoePresence(); };
             TimerGetCurrentCharacter.Elapsed += (sender, evt) => { GetCurrentCharacter(); };
@@ -129,18 +124,6 @@ namespace Path_of_Exile_Rich_Presence
 
                     var location = result.ToString();
 
-                    /*
-                     string newResult = location + "(" + maps.Find(x => x.name == location.ToString()).tier;
-                    try
-                    {
-                        var currentMap = _maps.Find(x => x.name == location + " Map");
-                        location = $"{location} ({ currentMap.tier} Map)";
-                    }
-                    catch
-                    {
-                        // ignored
-                    }
-                    */
                     if (UpdatePoePresenceText("In " + location))
                     {
                         Log($"LOG: Location has been changed. Text: {lastLine} | " + "Location: " + result, ConsoleColor.Green);
@@ -154,11 +137,6 @@ namespace Path_of_Exile_Rich_Presence
             }
         }
 
-        /// <summary>
-        /// Updates presence with new text.
-        /// </summary>
-        /// <param name="newText">New text (string).</param>
-        /// <returns>Returns if presence have been changed.</returns>
         private static bool UpdatePoePresenceText(string newText)
         {
             if (_presence.state != newText)
@@ -187,14 +165,12 @@ namespace Path_of_Exile_Rich_Presence
         {
             using (var client = new HttpClient())
             {
-                // HTTP POST
                 client.BaseAddress = new Uri("https://www.pathofexile.com");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 var response = client.GetAsync($"character-window/get-characters?accountName={_userName}").Result;
                 string res;
                 using (HttpContent content = response.Content)
                 {
-                    // ... Read the string.
                     Task<string> result = content.ReadAsStringAsync();
                     res = result.Result;
                 }
